@@ -12,6 +12,7 @@
 		71014DA72925031D00A0A486 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71014DA62925031D00A0A486 /* Profile.swift */; };
 		71014DA9292504B800A0A486 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71014DA8292504B800A0A486 /* ProfileHost.swift */; };
 		71014DAC2925057100A0A486 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71014DAB2925057100A0A486 /* ProfileSummary.swift */; };
+		711FA4B029E6A5A6009530FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711FA4B229E6A5A6009530FA /* Localizable.strings */; };
 		71A4D08929236C70005F87EA /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4D08829236C70005F87EA /* BadgeSymbol.swift */; };
 		71A4D08B29236F73005F87EA /* RotateBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4D08A29236F73005F87EA /* RotateBadgeSymbol.swift */; };
 		71A4D08D292375FA005F87EA /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4D08C292375FA005F87EA /* Badge.swift */; };
@@ -50,6 +51,8 @@
 		71014DA62925031D00A0A486 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		71014DA8292504B800A0A486 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		71014DAB2925057100A0A486 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		711FA4B129E6A5A6009530FA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		711FA4B329E6A5D2009530FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		71A4D08829236C70005F87EA /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		71A4D08A29236F73005F87EA /* RotateBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateBadgeSymbol.swift; sourceTree = "<group>"; };
 		71A4D08C292375FA005F87EA /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
@@ -160,6 +163,7 @@
 				71CB9EBB291DED3400EDF5DD /* swiftUILearningApp.swift */,
 				71CB9EBF291DED3600EDF5DD /* Assets.xcassets */,
 				711FA4AB29E6982B009530FA /* Preview Content */,
+				711FA4B229E6A5A6009530FA /* Localizable.strings */,
 			);
 			path = swiftUILearning;
 			sourceTree = "<group>";
@@ -282,6 +286,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 71CB9EAF291DED3400EDF5DD;
 			productRefGroup = 71CB9EB9291DED3400EDF5DD /* Products */;
@@ -299,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A4D09029238F36005F87EA /* hikeData.json in Resources */,
+				711FA4B029E6A5A6009530FA /* Localizable.strings in Resources */,
 				71CB9EC0291DED3600EDF5DD /* Assets.xcassets in Resources */,
 				71CB9ECE291E4A5E00EDF5DD /* landmarkData.json in Resources */,
 			);
@@ -347,6 +353,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		711FA4B229E6A5A6009530FA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711FA4B129E6A5A6009530FA /* zh-Hans */,
+				711FA4B329E6A5D2009530FA /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		71CB9EC4291DED3600EDF5DD /* Debug */ = {

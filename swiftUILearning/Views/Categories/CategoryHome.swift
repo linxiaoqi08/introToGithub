@@ -33,7 +33,8 @@ struct CategoryHome: View {
                 .listRowInsets(EdgeInsets())
             }
             .listStyle(.inset)
-            .navigationTitle("Featured")
+            
+            .navigationTitle(NSLocalizedString("tabFeatureName", comment: ""))
 //                .navigationBarTitle("Featured")
             .toolbar {
                 Button {
@@ -45,6 +46,10 @@ struct CategoryHome: View {
             }
             //底部弹窗 presentation
             .sheet(isPresented: $showingProfile) {
+                
+                let str = NSLocalizedString("swiftUILearning", comment: "")
+                Text(str)
+                
                 ProfileHost()
                     .environmentObject(modelData)
             }

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  swiftUILearning
+
+  Created by eileen on 2023/4/12.
+  
+*/
+
+
+"swiftUILearning" = "English";
+"tabFeatureName" = "Featured";
+"tabListName" = "List";
